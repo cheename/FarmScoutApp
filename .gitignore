@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Datasets / images
+Datasets/
+*.jpg
+*.jpeg
+*.png
+
+# Model files (optional if too large)
+*.h5
+
+# Cache
+__pycache__/
+*.pyc
+
+venv/
+__pycache__/
+*.pyc
+.DS_Store
