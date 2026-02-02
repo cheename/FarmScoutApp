@@ -19,3 +19,6 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+# Allow the trained model to be pushed
+!model/RiceHealthAnalysis_model.h5
+!model/RiceHealthAnalysis_labels.txt
