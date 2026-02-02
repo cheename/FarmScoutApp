@@ -8,8 +8,11 @@ Datasets/
 *.jpeg
 *.png
 
-# Model files (optional if too large)
+# Model files (ignore all .h5 except our final model)
 *.h5
+!model/
+!model/RiceHealthAnalysis_model.h5
+!model/RiceHealthAnalysis_labels.txt
 
 # Cache
 __pycache__/
@@ -19,6 +22,3 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
-# Allow the trained model to be pushed
-!model/RiceHealthAnalysis_model.h5
-!model/RiceHealthAnalysis_labels.txt
